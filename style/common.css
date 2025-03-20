@@ -1,0 +1,50 @@
+:root {
+  /* --primary-bg-color: #ad9e90; */
+  /* --primary-bg-color: #141414; */
+  /* --primary-bg-color: #909eae; */
+  --primary-bg-color: #5c8dc5;
+  --primary-bg-color: #736f60;
+  --breakpoint-sm: 320px;
+}
+
+*, *::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 100%;
+}
+
+.link-text {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* .link-text::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+}
+
+.link-text:hover::after {
+  transform: translateX(100%); 
+} 
+*/
+
+.inline-block {
+  display: block;
+  text-align: right;
+}

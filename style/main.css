@@ -1,0 +1,9 @@
+@import url("./reset.css");
+@import url("./common.css");
+@import url("./animations.css");
+
+
+@import url("./splash-screen.css");
+@import url("./header.css");
+
+@import url("./sections/hero-section.css");
