@@ -1,20 +1,20 @@
 .hero-section {
-  position: relative;
   height: 100vh;
 }
+
 .hero-section__container {
-  display: flex;
-  align-items: center;
-  padding: 24px;
+  position: relative;
+  padding: 0 24px;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  margin-top: 300px;
 
 }
 
 .hero-section__heading {
   color: whitesmoke;
-  font-size: 5rem;
-  width: 100%;
+  font-size: clamp(2rem, 1.7037rem + 1.4815vw, 3rem);
   font-weight: 400;
   font-family: "Lora", serif;
   text-transform: uppercase;
@@ -22,8 +22,7 @@
 
 .hero-section__heading div {
   position: relative;
-  height: 5rem;
-  width: 100%;
+  height: clamp(2rem, 1.7037rem + 1.4815vw, 3rem);
   overflow: hidden;
 }
 
@@ -54,10 +53,16 @@
 
 
 .based-in {
-  position: absolute;
-  bottom: 5%;
-  right: 24px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 11.398px;
   text-transform: uppercase;
+}
+
+.hero-section__end {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  width: 100%;
+  /* inset: 0; */
+  /* bottom: 5%; */
 }

@@ -1,0 +1,27 @@
+.service-section {
+  height: 100vh;
+}
+
+.section__title {
+  font-size: calc((64 / ((var(--dw) / 100) * var(--cs))) * 1rem);
+  font-size: 1rem;
+  font-family: "Lora", serif;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  word-spacing: 3rem;
+}
+
+.section__sub-title{
+  font-size: calc((64 / ((var(--dw) / 100) * var(--cs))) * 1rem);
+  font-size: 3.2rem;
+  font-family: "Lora", serif;
+  color: var(--primary-text-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__sub-title  {
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 .header {
   position: absolute;
   width: 100%;
+  top: 0;
   z-index: 1;
   /* background-color: red; */
 }
@@ -8,12 +9,17 @@
 .header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 32px 24px;
 }
 
 .header__logo {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.header__logo img {
+  width: clamp(90px, 10vw, 150px);
 }
 
 .header__our-clients {

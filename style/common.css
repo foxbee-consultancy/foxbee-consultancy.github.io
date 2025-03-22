@@ -1,13 +1,14 @@
 :root {
   /* --primary-bg-color: #ad9e90; */
-  /* --primary-bg-color: #141414; */
+  --primary-bg-color: #141414;
+  --primary-text-color: #fff;
   /* --primary-bg-color: #909eae; */
-  --primary-bg-color: #5c8dc5;
-  --primary-bg-color: #736f60;
+  /* --primary-bg-color: #5c8dc5; */
+  /* --primary-bg-color: #736f60; */
   --breakpoint-sm: 320px;
 }
 
-*, *::before,*::after {
+* {
   box-sizing: border-box;
 }
 
@@ -20,13 +21,19 @@ body {
   width: 100%;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .link-text {
   color: #fff;
   text-decoration: none;
+  font-size: 11.375px;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 /* .link-text::after {
@@ -47,4 +54,16 @@ body {
 .inline-block {
   display: block;
   text-align: right;
+}
+
+.hamburger_menu {
+  display: flex;
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+}
+
+.hamburger_menu svg {
+  width: 24px;
+  height: 24px;
 }
